@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 0%;
+  --foreground: 0 0% 100%;
+  --card: 0 0% 6%;
+  --accent: 198 93% 60%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border-color: rgb(39, 39, 42);
+}
+
+/* Hacker Matrix Background */
+@keyframes matrix-rain {
+  0% {
+    opacity: 0;
+    transform: translateY(-100vh) rotateZ(0deg);
+  }
+  10% {
+    opacity: 0.5;
+  }
+  90% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(100vh) rotateZ(360deg);
+  }
+}
+
+@keyframes flicker {
+  0%, 19%, 21%, 23%, 25%, 54%, 56%, 100% {
+    opacity: 0.8;
+    text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+  }
+  20%, 24%, 55% {
+    opacity: 1;
+    text-shadow: 0 0 20px rgba(34, 211, 238, 0.8);
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    opacity: 0.1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  color: rgb(250, 250, 250);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+  overflow-x: hidden;
+}
+
+/* Matrix grid overlay */
+body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    linear-gradient(
+      0deg,
+      rgba(34, 211, 238, 0.03) 1px,
+      transparent 1px
+    ),
+    linear-gradient(
+      90deg,
+      rgba(34, 211, 238, 0.03) 1px,
+      transparent 1px
+    );
+  background-size: 50px 50px;
+  pointer-events: none;
+  z-index: -10;
+  animation: flicker 0.15s infinite;
+}
+
+/* Scan lines effect */
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: 
+    repeating-linear-gradient(
+      0deg,
+      rgba(34, 211, 238, 0.02) 0px,
+      rgba(34, 211, 238, 0.02) 1px,
+      transparent 1px,
+      transparent 2px
+    );
+  pointer-events: none;
+  z-index: -9;
+  animation: flicker 0.15s infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: radial-gradient(ellipse at center, rgba(34, 211, 238, 0.05) 0%, rgba(0, 0, 0, 0.3) 100%) fixed;
+}
+
+html::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+  pointer-events: none;
+  z-index: -8;
+}
+
+/* Glow effect for cyan elements */
+.text-cyan-400 {
+  text-shadow: 0 0 10px rgba(34, 211, 238, 0.5);
+}
+
+.border-cyan-500 {
+  box-shadow: inset 0 0 10px rgba(34, 211, 238, 0.1), 0 0 10px rgba(34, 211, 238, 0.1);
+}
+
+/* Ensure main content is visible */
+main {
+  position: relative;
+  z-index: 10;
+}
+
+nav {
+  position: relative;
+  z-index: 50;
+}
+
+footer {
+  position: relative;
+  z-index: 10;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(9, 9, 9);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(39, 39, 42);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(63, 63, 70);
+}
+
+/* Selection */
+::selection {
+  background-color: rgba(34, 211, 238, 0.2);
+  color: rgb(34, 211, 238);
+}

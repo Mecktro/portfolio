@@ -1,0 +1,32 @@
+/* Terminal component styles */
+
+.terminal {
+  background-color: #000;
+  color: #0f0;
+  font-family: 'Monaco', 'Courier New', monospace;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  overflow-x: auto;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.terminal-line {
+  margin-bottom: 0.5rem;
+}
+
+.terminal-prompt {
+  color: #00ff00;
+  font-weight: bold;
+}
+
+.terminal-command {
+  color: #ffffff;
+}
+
+.terminal-output {
+  color: #00ff00;
+}
+
+.terminal-error {
+  color: #ff6b6b;
+}
