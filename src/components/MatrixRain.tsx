@@ -15,7 +15,7 @@ export default function MatrixRain() {
     canvas.width = window.innerWidth
     canvas.height = window.innerHeight
 
-    const characters = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲン'
+    const characters = '01アイウエオカキクケコサシスセソタチツテトナニヌネノハヒフヘホマミムメモヤユヨラリルレロワヲ'
     const charArray = characters.split('')
 
     const columns = Math.floor(canvas.width / 20)

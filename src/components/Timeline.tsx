@@ -10,7 +10,7 @@ export default function Timeline() {
           <h2 className="font-mono text-2xl font-bold text-white">Experience</h2>
         </div>
         <div className="space-y-6">
-          {experiences.map((exp, idx) => (
+          {experiences.map((exp) => (
             <div
               key={exp.id}
               className="border-l-2 border-cyan-500 pl-6 transition-opacity hover:opacity-80"
