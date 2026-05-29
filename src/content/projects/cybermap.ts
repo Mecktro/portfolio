@@ -11,7 +11,7 @@ export const cybermapProject = {
 • MITRE ATT&CK technique visualization
 • Threat actor correlation and profiling
 • Custom threat intelligence feed integration`,
-  image: '/images/projects/cybermap.png',
+  image: '/images/projects/cybermap.jpg',
   technologies: ['Next.js', 'D3.js', 'WebGL', 'Python', 'FastAPI', 'Elasticsearch'],
   link: '#',
   github: '#',

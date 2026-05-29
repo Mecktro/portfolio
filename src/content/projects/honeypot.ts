@@ -13,7 +13,7 @@ export const honeypotProject = {
 • Built Grafana dashboards for SOC monitoring
 
 Impact: 2,500+ attacks collected, 30+ C2 servers identified, 70% faster incident response`,
-  image: '/images/projects/honeypot-dashboard.png',
+  image: '/images/projects/cloud.jpg',
   technologies: [
     'AWS',
     'Python',

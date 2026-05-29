@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className="mx-auto max-w-5xl px-6 py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="font-mono text-lg font-bold text-cyan-400">
-            bandi.dev
+            Mohan
           </Link>
           <ul className="hidden gap-8 md:flex">
             {navItems.map((item) => {

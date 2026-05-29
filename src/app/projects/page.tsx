@@ -3,11 +3,12 @@
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import ProjectCard from '@/components/ProjectCard'
+import { cdipProject } from '@/content/projects/cdip'
 import { honeypotProject } from '@/content/projects/honeypot'
 import { cybermapProject } from '@/content/projects/cybermap'
 import { tradebotProject } from '@/content/projects/tradebot'
 
-const projects = [honeypotProject, cybermapProject, tradebotProject]
+const projects = [cdipProject, honeypotProject, cybermapProject, tradebotProject]
 
 export default function ProjectsPage() {
   return (

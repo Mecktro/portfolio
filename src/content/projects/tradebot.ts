@@ -13,7 +13,7 @@ export const tradebotProject = {
 • Bollinger Bands momentum indicators
 • Real-time market data processing
 • Multi-platform integration`,
-  image: '/images/projects/tradebot.png',
+  image: '/images/projects/tradebot.jpg',
   technologies: [
     'Python',
     'Selenium',
@@ -22,8 +22,8 @@ export const tradebotProject = {
     'APIs',
     'Web Scraping',
   ],
-  link: '#',
-  github: '#',
+  link: 'https://github.com/Mecktro/Auto-Signla-Bot',
+  github: 'https://github.com/Mecktro/Auto-Signla-Bot',
   highlights: [
     'AI-driven automation',
     'Multi-platform trading',
