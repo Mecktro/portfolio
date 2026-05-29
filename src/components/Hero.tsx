@@ -29,14 +29,6 @@ export default function Hero() {
             >
               View Projects <ArrowRight size={16} />
             </Link>
-            <a
-              href="/resume/mohan_resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-lg border border-zinc-700 px-6 py-3 font-mono text-sm font-bold text-zinc-400 transition-all hover:border-zinc-600 hover:text-zinc-300"
-            >
-              Resume
-            </a>
           </div>
 
           <div className="flex gap-4 pt-4">

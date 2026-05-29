@@ -22,14 +22,22 @@ export default function Home() {
             </h2>
             <div className="space-y-4 text-zinc-300 leading-relaxed">
               <p>
-                B.Tech CSE (Cybersecurity) student at G.I.T.A.M University with hands-on experience in cloud security, 
-                incident detection, and security automation. Skilled in Python scripting, vulnerability assessment using 
-                OWASP Top 10 and MITRE ATT&CK. Currently seeking opportunities in Offensive Security.
+                Final-year B.Tech Cybersecurity student at GITAM University who enjoys breaking things ethically and then figuring out how
+                to secure them properly. I work across cloud security, SOC operations, detection engineering, and security automation with
+                hands-on experience in Python, AWS, Linux, Docker, and monitoring tools. Most of my time goes into analysing threats,
+                building security workflows, and convincing systems not to crash at 2 AM.
               </p>
               <p>
-                Leading OWASP community initiatives and CyberSec awareness at G.I.T.A.M. Active in bug bounty hunting, 
-                CTF competitions, and contributing to open-source security projects. Focused on building practical security 
-                understanding and strengthening security posture through detection engineering and threat modeling.
+                I currently lead OWASP and cybersecurity community initiatives at GITAM University, where I organise workshops,
+                technical sessions, and hands-on security events for students. Outside academics, I actively participate in CTFs,
+                open-source security projects, and application security research. I’m especially interested in blue team operations, cloud
+                security, DevSecOps, and enterprise security engineering.
+              </p>
+              <p>
+                I like building practical projects that combine monitoring, automation, and security operations — basically making dashboards
+                look scary enough for attackers and useful enough for defenders. When I’m not debugging logs or chasing vulnerabilities,
+                I’m probably exploring new security tools, contributing to community projects, or explaining cybersecurity concepts with way
+                too much enthusiasm.
               </p>
             </div>
           </div>

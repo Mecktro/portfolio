@@ -59,7 +59,8 @@ const nextConfig = {
 
   // Experimental features for better performance
   experimental: {
-    optimizePackageImports: ['lucide-react'],
+    // Disabled due to Next.js dev-mode issues with lucide-react vendor chunk loading.
+    // optimizePackageImports: ['lucide-react'],
   },
 }
 
