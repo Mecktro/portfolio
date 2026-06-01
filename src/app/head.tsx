@@ -25,6 +25,9 @@ export default function Head() {
 
   return (
     <>
+      {/* Google Search Console verification meta tags (keep in place to retain verification) */}
+      <meta name="google-site-verification" content="googlece44edb83b6d7cda.html" />
+      <meta name="google-site-verification" content="ce44edb83b6d7cda" />
       <link rel="canonical" href={`${siteUrl}/`} />
       <meta name="author" content="Bandi Mohan" />
       <meta name="publisher" content="Mecktro" />
