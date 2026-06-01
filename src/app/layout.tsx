@@ -6,24 +6,40 @@ import MatrixRain from '@/components/MatrixRain'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Bandi Mohan - Offensive Security Engineer',
+  title: 'Mecktro — Bandi Mohan — Offensive Security Engineer',
   description:
-    'Security engineer focused on cloud infrastructure, detection engineering, and AI-assisted security automation.',
+    "Mecktro — portfolio of Bandi Mohan. Offensive security engineer focused on cloud infrastructure, detection engineering, and AI-assisted security automation.",
   keywords: [
+    'Mecktro',
+    'mectro',
+    'bandi mohan',
+    'mohan bandi',
+    'portfolio',
     'security',
     'offensive security',
     'cloud security',
     'detection engineering',
-    'AWS',
     'threat intelligence',
   ],
   authors: [{ name: 'Bandi Mohan' }],
+  metadataBase: new URL('https://mecktro.vercel.app'),
   openGraph: {
-    title: 'Bandi Mohan - Offensive Security Engineer',
+    title: 'Mecktro — Bandi Mohan',
     description:
-      'Building cloud security systems, threat detection pipelines, and AI-assisted security automation.',
+      'Mecktro — portfolio of Bandi Mohan. Building cloud security systems, threat detection pipelines, and AI-assisted security automation.',
     type: 'website',
-    url: 'https://bandi.dev',
+    url: 'https://mecktro.vercel.app',
+    siteName: 'Mecktro',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Mecktro — Bandi Mohan',
+    description:
+      'Portfolio of Bandi Mohan — offensive security engineer focused on cloud and detection engineering.',
+  },
+  robots: {
+    index: true,
+    follow: true,
   },
 }
 

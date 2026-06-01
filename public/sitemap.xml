@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>https://mecktro.vercel.app/</loc>
+  </url>
+  <url>
+    <loc>https://mecktro.vercel.app/blog</loc>
+  </url>
+  <url>
+    <loc>https://mecktro.vercel.app/projects</loc>
+  </url>
+  <url>
+    <loc>https://mecktro.vercel.app/contact</loc>
+  </url>
+  <url>
+    <loc>https://mecktro.vercel.app/certifications</loc>
+  </url>
+  <url>
+    <loc>https://mecktro.vercel.app/research</loc>
+  </url>
+  <url>
+    <loc>https://mecktro.vercel.app/ctf</loc>
+  </url>
+</urlset>
